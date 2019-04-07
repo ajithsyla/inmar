@@ -1,0 +1,58 @@
+:host {
+    // font-size: 1rem;
+  
+    /deep/ {
+      * {
+        box-sizing: border-box;
+      }
+  
+      input,
+      optgroup,
+      select,
+      textarea {
+        color: inherit;
+        font: inherit;
+        margin: 0;
+      }
+  
+      table {
+        line-height: 1.5em;
+        border-collapse: collapse;
+        border-spacing: 0;
+        display: table;
+        width: 100%;
+        max-width: 100%;
+        overflow: auto;
+        word-break: normal;
+        word-break: keep-all;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+  
+        tr {
+          th {
+            font-weight: bold;
+          }
+          section {
+            font-size: .75em;
+            font-weight: bold;
+          }
+          td,
+          th {
+            font-size: 1.5em !important;
+            margin: 0;
+            padding: 0.5em 1em;
+            border: 1px solid #ccc;
+          }
+        }
+      }
+  
+      a {
+        color: #1e6bb8;
+        text-decoration: none; 
+        margin: 5px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
